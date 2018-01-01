@@ -172,7 +172,7 @@ alias up="cd ~/project/uploadvideo"
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-# xmodmap /home/vagrant/.Xmodmap_vagrant
+xmodmap /home/vagrant/.Xmodmap_vagrant
 
 killall VBoxClient
 VBoxClient-all
