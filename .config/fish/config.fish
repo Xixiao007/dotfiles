@@ -175,4 +175,4 @@ alias up="cd ~/project/uploadvideo"
 xmodmap /home/vagrant/.Xmodmap_vagrant
 
 killall VBoxClient
-VBoxClient-all
+VBoxClient --clipboard; VBoxClient --display
