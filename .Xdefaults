@@ -27,10 +27,10 @@ URxvt.internalBorder:       3
 URxvt.lineSpace:            0
 
 ! Fonts
-URxvt.font:           xft:Consolas:pixelsize=14
-URxvt.boldFont:       xft:Consolas:bold:pixelsize=14
-URxvt.italicFont:     xft:Consolas:italic:pixelsize=14
-URxvt.boldItalicFont: xft:Consolas:bold:italic:pixelsize=14
+URxvt.font:           xft:Consolas:pixelsize=16
+URxvt.boldFont:       xft:Consolas:bold:pixelsize=16
+URxvt.italicFont:     xft:Consolas:italic:pixelsize=16
+URxvt.boldItalicFont: xft:Consolas:bold:italic:pixelsize=16
 
 ! Fix font space
 URxvt*letterSpace: -1
