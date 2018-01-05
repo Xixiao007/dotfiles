@@ -4,18 +4,21 @@
     "current_border_width": 3,
     "floating": "auto_off",
     "geometry": {
-        "height": 1079,
-        "width": 1919,
-        "x": 0,
-        "y": 0
+       "height": 872,
+       "width": 1434,
+       "x": 3,
+       "y": 25
     },
-    "name": "edit",
+    "name": "● work1.json - Visual Studio Code",
     "percent": 1,
     "swallows": [
-        {
-            "class": "^Code$"
-        }
+       {
+        "class": "^Code$",
+        "instance": "^code$"
+       // "title": "^\\●\\ work1\\.json\\ \\-\\ Visual\\ Studio\\ Code$",
+       // "transient_for": "^$",
+       // "window_role": "^browser\\-window$"
+       }
     ],
     "type": "con"
 }
-
