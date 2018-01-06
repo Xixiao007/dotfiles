@@ -165,7 +165,7 @@ exec --no-startup-id i3-msg 'workspace 2:edit; exec /usr/bin/code'
 exec --no-startup-id "i3-msg 'workspace 3:console; append_layout ~/.config/i3/.i3/workspace-3.json;'"
 exec --no-startup-id i3-sensible-terminal -e "tmux"
 
-exec --no-startup-id "i3-msg 'workspace 1:web'"
+exec --no-startup-id "i3-msg 'workspace 3:console'"
 
 #exec --no-startup-id "vmware-user"
 

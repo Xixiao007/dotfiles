@@ -171,5 +171,4 @@ alias c="clear"
 
 xmodmap /home/vagrant/.Xmodmap_vagrant
 
-killall VBoxClient
 VBoxClient --clipboard; VBoxClient --display
