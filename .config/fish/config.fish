@@ -145,15 +145,12 @@ alias jen="ssh finxxi@40.85.132.47"
 alias pac="sudo pacman"
 alias pacs="sudo pacman -S"
 
-alias repos="cd ~/repos"
-alias opi="cd ~/repos/opisuomea.com"
-alias co="cd ~/repos/codetimecn.com"
+alias p="cd ~/projects"
 alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
 alias dub="cd ~/project/dublearn"
-alias up="cd ~/project/uploadvideo"
-
+alias c="clear"
 #set fish_color_normal dedede
 #set fish_color_command 7aa6da
 #set fish_color_quote e78c45
