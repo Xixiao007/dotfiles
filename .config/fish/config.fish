@@ -150,6 +150,7 @@ alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
 alias dub="cd ~/project/dublearn"
+alias vm="cd ~/VMs"
 alias c="clear"
 #set fish_color_normal dedede
 #set fish_color_command 7aa6da
