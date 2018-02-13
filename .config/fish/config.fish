@@ -126,7 +126,7 @@ alias p="cd ~/project"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
-alias v="vim"
+# alias v="vim"
 alias e="exit"
 
 ################################
@@ -140,7 +140,7 @@ alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
-alias jen="ssh finxxi@40.85.132.47"
+# alias jen="ssh finxxi@40.85.132.47"
 
 alias pac="sudo pacman"
 alias pacs="sudo pacman -S"
