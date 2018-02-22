@@ -65,16 +65,23 @@ end
 function fish_prompt
   set -l last_status $status
 
-  _print_in_color "\n"(_pwd_with_tilde) blue
+if not set -q __fish_prompt_hostname
+        set -g __fish_prompt_hostname (hostname)
+end 
 
-  if _in_git_directory
-    _print_in_color " "(_git_branch_name_or_revision) 242
-    _print_in_color " "(_git_upstream_status) cyan
-  end
+set_color -o red
+     echo -n -s @ "$__fish_prompt_hostname" " "
+_print_in_color (_pwd_with_tilde) blue
+
+if _in_git_directory
+  _print_in_color " "(_git_branch_name_or_revision) 242
+  _print_in_color " "(_git_upstream_status) cyan
+end
 
  if set -q VIRTUAL_ENV
     echo -n -s (set_color green) " [" (basename "$VIRTUAL_ENV") "]" (set_color normal) " "
  end
+
 
   _print_in_color "\n❯ " (_prompt_color_for_status $last_status)
 end
