@@ -19,7 +19,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+c kill
 # start dmenu (a program launcher)
-bindsym $mod+p exec dmenu_run
+bindsym $mod+p exec i3-dmenu-desktop
 # change focus
 # default keys altered to match those of vim
 bindsym $mod+h focus left
