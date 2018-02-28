@@ -140,8 +140,6 @@ alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
-# alias jen="ssh finxxi@40.85.132.47"
-
 alias pac="sudo pacman"
 alias pacs="sudo pacman -S"
 
@@ -152,6 +150,7 @@ alias ic="ionic cordova"
 alias dub="cd ~/project/dublearn"
 alias vm="cd ~/VMs"
 alias c="clear"
+alias v="vagrant"
 #set fish_color_normal dedede
 #set fish_color_command 7aa6da
 #set fish_color_quote e78c45
