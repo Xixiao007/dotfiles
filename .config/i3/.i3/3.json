@@ -13,8 +13,8 @@
     "percent": 1,
     "swallows": [
        {
-       "class": "*terminal$",
-       "instance": "*terminal$"
+        "class": "^Gnome\\-terminal$",
+        "instance": "^gnome\\-terminal\\-server$"
        }
     ],
     "type": "con"
