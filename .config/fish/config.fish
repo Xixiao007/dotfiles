@@ -164,7 +164,7 @@ set fish_color_search_match c397d8
 set fish_color_operator 70c0b1
 set fish_color_escape 70c0b1
 set fish_color_cwd b9ca4a
-set fish_greeting "http://xixiao.info <- found me here :)"
+set fish_greeting "Found me here => http://xixiao.info"
 
 # set PATH $HOME/.rbenv/bin $PATH
 # set PATH $HOME/.rbenv/shims $PATH
