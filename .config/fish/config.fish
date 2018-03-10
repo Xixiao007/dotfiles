@@ -170,6 +170,6 @@ set fish_greeting "Found me here => http://xixiao.info"
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-xmodmap /home/vagrant/.Xmodmap_vagrant
+xmodmap /home/finxxi/.Xmodmap_vagrant
 
 VBoxClient --clipboard; VBoxClient --display
