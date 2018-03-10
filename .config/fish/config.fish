@@ -171,5 +171,4 @@ set fish_greeting "Found me here => http://xixiao.info"
 # rbenv rehash >/dev/null ^&1
 
 xmodmap /home/finxxi/.Xmodmap_vagrant
-
-VBoxClient --clipboard; VBoxClient --display
+/usr/bin/vmware-user-suid-wrapper
