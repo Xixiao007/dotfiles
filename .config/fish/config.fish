@@ -152,11 +152,11 @@ alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
 set fish_color_normal ffff00 #dedede
-set fish_color_command 7aa6da
-set fish_color_quote e78c45
+set fish_color_command yellow #7aa6da
+set fish_color_quote blue
 set fish_color_redirection c397d8
 set fish_color_end c397d8
-set fish_color_error d54e53
+set fish_color_error red
 set fish_color_param 7CFC00 
 set fish_color_comment ffff00
 set fish_color_match 70c0b1
