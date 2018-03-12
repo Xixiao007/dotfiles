@@ -43,7 +43,9 @@ URxvt.scrollBar:            false
 !URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
 URxvt.perl-ext-common:      default,matcher,resize-font,keyboard-select,selection-to-clipboard
-URxvt.keysym.M-Escape: perl:keyboard-select:activate 
+!URxvt.keysym.M-Escape: perl:keyboard-select:activate 
+URxvt.keysym.C-s: perl:keyboard-select:activate
+URxvt.keysym.M-r: perl:keyboard-select:search
 URxvt.matcher.button:       1
 URxvt.urlLauncher:          google-chrome
 
