@@ -143,7 +143,6 @@ alias egrep="egrep --color=auto"
 alias pac="sudo pacman"
 alias pacs="sudo pacman -S"
 
-alias p="cd ~/projects"
 alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
