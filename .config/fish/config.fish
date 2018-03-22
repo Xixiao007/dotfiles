@@ -125,7 +125,7 @@ alias l='ls -CF'
 ################################
 alias D="cd ~/Downloads"
 alias d="cd ~/Dropbox"
-alias p="cd ~/project"
+alias p="cd ~/projects"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
@@ -146,7 +146,6 @@ alias egrep="egrep --color=auto"
 alias pac="sudo pacman"
 alias pacs="sudo pacman -S"
 
-alias p="cd ~/projects"
 alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
@@ -154,19 +153,26 @@ alias dub="cd ~/project/dublearn"
 alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
-#set fish_color_normal dedede
-#set fish_color_command 7aa6da
-#set fish_color_quote e78c45
-#set fish_color_redirection c397d8
-#set fish_color_end c397d8
-#set fish_color_error d54e53
-#set fish_color_param ffffff
-#set fish_color_comment 999999
-#set fish_color_match 70c0b1
-#set fish_color_search_match c397d8
-#set fish_color_operator 70c0b1
-#set fish_color_escape 70c0b1
-#set fish_color_cwd b9ca4a
+
+set FZF_DEFAULT_COMMAND "fd . $HOME"
+set FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
+set FZF_ALT_C_COMMAND "fd -t d . $HOME"
+
+
+set fish_color_normal ffff00 #dedede
+set fish_color_command yellow #7aa6da
+set fish_color_quote blue
+set fish_color_redirection c397d8
+set fish_color_end c397d8
+set fish_color_error red
+set fish_color_param 7CFC00 
+set fish_color_comment ffff00
+set fish_color_match 70c0b1
+set fish_color_search_match c397d8
+set fish_color_operator 70c0b1
+set fish_color_escape 70c0b1
+set fish_color_cwd b9ca4a
+set fish_greeting "Found me here => http://xixiao.info"
 
 # set PATH $HOME/.rbenv/bin $PATH
 # set PATH $HOME/.rbenv/shims $PATH
@@ -174,3 +180,4 @@ alias v="vagrant"
 
 #xmodmap /home/vagrant/.Xmodmap_vagrant
 #VBoxClient --clipboard; VBoxClient --display
+#/usr/bin/vmware-user-suid-wrapper

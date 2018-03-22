@@ -1,23 +1,26 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bg.jpg .gitconfig .gitignore .tmux.conf .Xdefaults .xinitrc .config/i3 .config/i3status .config/fish"        # list of files/folders to symlink in homedir
+cd "$(dirname "${BASH_SOURCE}")";
 
-##########
+git pull origin master;
 
-# create dotfiles_old in homedir
-echo "Creating $olddir"
-mkdir -p $olddir
+function doIt() {
+	rsync --exclude ".git/" \
+		--exclude ".DS_Store" \
+		--exclude ".osx" \
+		--exclude "bootstrap.sh" \
+		--exclude "README.md" \
+		--exclude "LICENSE-MIT.txt" \
+		-avh --no-perms . ~;
+}
 
-# change to the dotfiles directory
-echo "Changing"
-cd $dir
-
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
-for file in $files; do
-    echo "---"
-    mv ~/$file ~/dotfiles_old/
-    echo "----------> $file"
-    ln -s $dir/$file ~/$file
-done
+if [ "$1" == "--force" -o "$1" == "-f" ]; then
+	doIt;
+else
+	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
+	echo "";
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		doIt;
+	fi;
+fi;
+unset doIt;
