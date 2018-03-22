@@ -40,6 +40,9 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PATH "$HOME/.npm/bin" $PATH
 # set -x PATH "./node_modules/.bin" $PATH
 
+# vscode
+set -X PATH "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" $PATH
+
 # python
 # Config `pip' to bail outside a virtualenv by default, see function gpip
 # set -x PIP_REQUIRE_VIRTUALENV 1
@@ -169,6 +172,5 @@ alias v="vagrant"
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-xmodmap /home/vagrant/.Xmodmap_vagrant
-
-VBoxClient --clipboard; VBoxClient --display
+#xmodmap /home/vagrant/.Xmodmap_vagrant
+#VBoxClient --clipboard; VBoxClient --display
