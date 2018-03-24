@@ -1,2 +1,2 @@
 # dotfiles
-My config files for MacOS and Linux (ubuntu, Archilinux)
+My config files for Linux (ubuntu, Archilinux)
