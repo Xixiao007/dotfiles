@@ -180,4 +180,4 @@ set fish_greeting "I'm here => http://xixiao.info"
 
 xmodmap $HOME/.Xmodmap
 #VBoxClient --clipboard; VBoxClient --display
-#/usr/bin/vmware-user-suid-wrapper
+/usr/bin/vmware-user-suid-wrapper
