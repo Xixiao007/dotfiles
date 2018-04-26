@@ -51,8 +51,8 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PYTHONPATH "$HOME/.virtualenvs/myvirtualenv/venv/lib/python3.5/site-packages"
 
 # pyenv
-set -x PYENV_ROOT "$HOME/.pyenv"
-set -x PATH "$PYENV_ROOT/bin" $PATH
+#set -x PYENV_ROOT "$HOME/.pyenv"
+#set -x PATH "$PYENV_ROOT/bin" $PATH
 
 # conda
 # set -x PATH "$HOME/anaconda3/bin" $PATH
@@ -179,6 +179,6 @@ set fish_greeting "I'm here => http://xixiao.info"
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-xmodmap $HOME/.Xmodmap
+xmodmap $HOME/.Xmodmap_vagrant
 #VBoxClient --clipboard; VBoxClient --display
 /usr/bin/vmware-user-suid-wrapper

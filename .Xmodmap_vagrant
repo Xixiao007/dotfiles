@@ -13,19 +13,19 @@
 ! keycode 204 = NoSymbol Alt_L NoSymbol Alt_L
 ! keycode 206 = NoSymbol Super_L NoSymbol Super_L
 
-!clear control
-!clear mod1
-!keycode 37 = Alt_L Meta_L
-!keycode 105 = Alt_R Meta_R
-!keycode 64 = Control_L
-!keycode 108 = Control_R
-!keycode 135 = Alt_R Meta_R
-!add control = Control_L Control_R
-!add mod1 = Alt_L Meta_L
+clear control
+clear mod1
+keycode 37 = Alt_L Meta_L
+keycode 105 = Alt_R Meta_R
+keycode 64 = Control_L
+keycode 108 = Control_R
+keycode 135 = Alt_R Meta_R
+add control = Control_L Control_R
+add mod1 = Alt_L Meta_L
 !
-!clear Lock
-!keycode 66 = Hyper_L
-!add mod4 = Super_L Hyper_L
+clear Lock
+keycode 66 = Hyper_L
+add mod4 = Super_L Hyper_L
 
 !clear mod4
 !add mod4 = Super_L
@@ -41,10 +41,10 @@
 !remove mod4 = Super_L
 !add control = Super_L
 
-clear control
-clear mod4
-keycode 133 = Control_L
-keycode 134 = Control_L
-keycode 105 = Super_L
-add control = Control_L Control_R
-add mod4 = Super_L
+!clear control
+!clear mod4
+!keycode 133 = Control_L
+!keycode 134 = Control_L
+!keycode 105 = Super_L
+!add control = Control_L Control_R
+!add mod4 = Super_L
