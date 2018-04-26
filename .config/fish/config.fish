@@ -153,6 +153,7 @@ alias dub="cd ~/project/dublearn"
 alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
+alias pmd="$HOME/pmd-bin-6.2.0/bin/run.sh pmd"
 
 set FZF_DEFAULT_COMMAND "fd . $HOME"
 set FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
