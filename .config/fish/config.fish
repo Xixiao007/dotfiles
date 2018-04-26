@@ -51,8 +51,8 @@ set -x PATH "/usr/local/sbin" $PATH
 # set -x PYTHONPATH "$HOME/.virtualenvs/myvirtualenv/venv/lib/python3.5/site-packages"
 
 # pyenv
-# set -x PYENV_ROOT "$HOME/.pyenv"
-# set -x PATH "$PYENV_ROOT/bin" $PATH
+set -x PYENV_ROOT "$HOME/.pyenv"
+set -x PATH "$PYENV_ROOT/bin" $PATH
 
 # conda
 # set -x PATH "$HOME/anaconda3/bin" $PATH
