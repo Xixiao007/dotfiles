@@ -139,6 +139,8 @@ alias ibuild="ionic cordova build android --prod --release"
 alias ipush="ionic cordova run android"
 alias is="ionic serve"
 
+alias git="hub"
+
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
