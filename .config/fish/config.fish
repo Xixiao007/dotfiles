@@ -25,7 +25,7 @@ set -x LC_CTYPE en_US.UTF-8
 # add homebrew to the beginning of PATH
 set -x PATH "/usr/local/bin" $PATH
 set -x PATH "/usr/local/sbin" $PATH
-# set -x PATH "$HOME/bin" $PATH
+set -x PATH "$HOME/bin" $PATH
 
 # ruby
 # setup rbenv (from https://gist.github.com/2937920)
