@@ -67,10 +67,10 @@ set -x PATH "$HOME/bin" $PATH
 # pyenv activate conda-ml
 
 # go
-# set -x GOPATH "$HOME/.go-lib"
-# set -x PATH "$GOPATH/bin" $PATH
-# set -x PATH "/usr/local/opt/go/libexec/bin" $PATH
-#
+set -x GOPATH "$HOME/projects/go"
+set -x PATH "$GOPATH/bin" $PATH
+set -x PATH "/usr/local/go/bin" $PATH
+
 # # haskell
 # set -x PATH "$HOME/.cabal/BIn" $PATH
 
