@@ -36,6 +36,7 @@ set -x PATH "$HOME/bin" $PATH
 # set -x  RUBY_GC_HEAP_GROWTH_MAX_SLOTS 300000
 
 # nodejs
+node -v
 # set -x NODE_PATH "$HOME/.npm/lib/node_modules" $NODE_PATH
 # set -x PATH "$HOME/.npm/bin" $PATH
 # set -x PATH "./node_modules/.bin" $PATH
@@ -123,13 +124,9 @@ alias l='ls -CF'
 ################################
 ###  File ShortCut
 ################################
-alias D="cd ~/Downloads"
-alias d="cd ~/Dropbox"
-alias p="cd ~/projects"
 alias g="git"
 alias gp="git push origin master"
 alias gs="git status"
-# alias v="vim"
 alias e="exit"
 
 ################################
