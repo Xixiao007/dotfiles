@@ -136,23 +136,20 @@ alias ibuild="ionic cordova build android --prod --release"
 alias ipush="ionic cordova run android"
 alias is="ionic serve"
 
+alias se1="ssh finxxi@192.168.0.191 -p 1129"
+alias pi1="ssh pi@192.168.0.192 -p 1130"
+alias pi2="ssh pi@192.168.0.193 -p 1131"
+
 alias git="hub"
 
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
-alias pac="sudo pacman"
-alias pacs="sudo pacman -S"
-
-alias to="cd ~/repos/tools"
 alias tray="xrandr --output Virtual1 --primary --left-of Virtual2"
 alias ic="ionic cordova"
-alias dub="cd ~/project/dublearn"
-alias vm="cd ~/VMs"
 alias c="clear"
 alias v="vagrant"
-alias pmd="$HOME/pmd-bin-6.2.0/bin/run.sh pmd"
 
 set FZF_DEFAULT_COMMAND "fd . $HOME"
 set FZF_CTRL_T_COMMAND "$FZF_DEFAULT_COMMAND"
