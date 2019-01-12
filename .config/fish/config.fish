@@ -136,7 +136,7 @@ alias ibuild="ionic cordova build android --prod --release"
 alias ipush="ionic cordova run android"
 alias is="ionic serve"
 
-alias se1="ssh finxxi@192.168.0.191 -p 1129"
+alias se="ssh finxxi@192.168.0.191 -p 1129"
 alias pi1="ssh pi@192.168.0.192 -p 1130"
 alias pi2="ssh pi@192.168.0.193 -p 1131"
 
