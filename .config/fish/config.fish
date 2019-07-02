@@ -140,7 +140,7 @@ alias se="ssh finxxi@192.168.0.191 -p 1129"
 alias pi1="ssh pi@192.168.0.192 -p 1130"
 alias pi2="ssh pi@192.168.0.193 -p 1131"
 
-alias git="hub"
+# alias git="hub"
 
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
