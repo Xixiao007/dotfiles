@@ -159,7 +159,8 @@ exec --no-startup-id unclutter
 exec --no-startup-id fcitx
 
 exec --no-startup-id "i3-msg 'workspace 1:web; append_layout ~/.config/i3/.i3/workspace-1.json;'"
-exec --no-startup-id i3-msg 'workspace 1:web; exec /usr/bin/google-chrome'
+# exec --no-startup-id i3-msg 'workspace 1:web; exec /usr/bin/google-chrome'
+exec --no-startup-id i3-msg 'workspace 1:web; exec /usr/bin/brave-browser'
 exec --no-startup-id "i3-msg 'workspace 2:edit; append_layout ~/.config/i3/.i3/workspace-2.json;'"
 # exec --no-startup-id i3-msg 'workspace 2:edit; exec /usr/bin/code'
 exec --no-startup-id "i3-msg 'workspace 3:console; append_layout ~/.config/i3/.i3/workspace-3.json;'"
