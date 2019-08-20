@@ -37,7 +37,7 @@ set -x PATH "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" $P
 # set -x  RUBY_GC_HEAP_GROWTH_MAX_SLOTS 300000
 
 # nodejs
-node -v
+# node -v
 # set -x NODE_PATH "$HOME/.npm/lib/node_modules" $NODE_PATH
 # set -x PATH "$HOME/.npm/bin" $PATH
 # set -x PATH "./node_modules/.bin" $PATH
