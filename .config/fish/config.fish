@@ -176,6 +176,6 @@ set fish_greeting "I'm here => http://xixiao.info"
 # set PATH $HOME/.rbenv/shims $PATH
 # rbenv rehash >/dev/null ^&1
 
-xmodmap $HOME/.Xmodmap
+#xmodmap $HOME/.Xmodmap
 #VBoxClient --clipboard; VBoxClient --display
-/usr/bin/vmware-user-suid-wrapper
+#/usr/bin/vmware-user-suid-wrapper
